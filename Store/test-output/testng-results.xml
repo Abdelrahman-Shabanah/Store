@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-19T23:11:30 EET" name="Default suite" finished-at="2022-02-19T23:12:14 EET" duration-ms="43313">
+    <groups>
+    </groups>
+    <test started-at="2022-02-19T23:11:30 EET" name="Default test" finished-at="2022-02-19T23:12:14 EET" duration-ms="43313">
+      <class name="tests.ValidateOrderTest">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:tests.ValidateOrderTest@57cf54e1]" started-at="2022-02-19T23:11:12 EET" name="StartDriver" finished-at="2022-02-19T23:11:30 EET" duration-ms="17882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="ConfirmPayment(java.lang.String,java.lang.String)[pri:0, instance:tests.ValidateOrderTest@57cf54e1]" started-at="2022-02-19T23:11:32 EET" name="ConfirmPayment" data-provider="LoginData" finished-at="2022-02-19T23:12:14 EET" duration-ms="41831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1101x1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tes1t]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmPayment -->
+        <test-method is-config="true" signature="CloseDriver()[pri:0, instance:tests.ValidateOrderTest@57cf54e1]" started-at="2022-02-19T23:12:14 EET" name="CloseDriver" finished-at="2022-02-19T23:12:14 EET" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- tests.ValidateOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
